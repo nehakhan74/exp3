@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="main.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.main.js">
+    jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},600);
+	});
+});
+  </script>
+           
+</head>
+
+<body>
+    <nav id="navbar">
+        <div><a href="#home">Home</a></div>
+        <div><a href="#about">About</a></div>
+        <div><a href="#skills">Skill</a></div>
+        <div><a href="#education">Education</a></div>
+        <div><a href="#projects">Project</a></div>
+        <div><a href="#contact">Contact</a></div>
+    </nav>
+    <div id="home">
+        <h1>Hi, I am Neha Khan</h1>
+        <h3>student</h3>
+    </div>
+    
+        <section id="about">
+        <div class="aboutme">
+            <h1>ABOUT ME</h1>
+        </div>
+        <div class="container">
+            
+            <div class="img" >
+            <img src="img/profile.jpg" alt="" height="528px" width="530px">
+            </div>
+    
+        <div class="card">
+            <div class="upper">
+                <div class="para">
+                    <p>My Aim is to Secure a responsible career opportunity 
+                    to fully utilize my training and skills, while making a 
+                    significant contribution to the success of the company.
+                        </p>
+                </div>
+                <br>
+                <br>
+                <hr></hr>
+                
+                  <div class=intro>
+                   <p>NAME: NEHA KHAN <br>
+                    DATE OF BIRTH: April 3rd,2000<br> 
+                    ADDRESS: Byculla, Mumbai. <br>
+                    EMAIL: kneha2559@gmail.com <br>
+                    PHONE: 8655663668</p>
+
+                  </div>
+                </div >
+        </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="logo">
+            <img src="img/parse-from-clipboard.png">
+            <h1>skill</h1>
+            </div>
+                                     
+        
+                 <div class="container1">
+                    
+                    <div class="bar learning" data-skill="html" data-percent="90%"></div>
+                    
+                    <div class="bar back basic" data-skill="CSS" data-percent="70%"></div>
+                    
+                    <div class="bar back intermediate" data-skill="PHP" data-percent="50%"></div>
+                    
+                    <div class="bar front advanced" data-skill="PYTHON" data-percent="80%"></div>
+                    
+                    <div class="bar front expert" data-skill="JAVA" data-percent="70%"></div>
+                    <div class="bar front expert" data-skill="PS" data-percent="70%"></div>
+                    
+                  </div>            
+    </section>
+    
+    <section id="education">
+        <div class="elogo">
+            <img src="img/500_F_114228015_OUhGD20zEmICTJ2Y57qLz3mm2RPPgnFv-removebg-preview.jpg" height="130px" width="100px">
+            <h1>Qualification</h1>
+        </div>
+
+        <div class="history-tl-container">
+          <ul class="tl">
+            <li class="tl-item" ng-repeat="item in retailer_history">
+              <div class="timestamp">
+                <b>pursing</b>
+              </div>
+              <div class="item-title"><b>College Name:Rizvi College Of Engineering<br>Degree:BE</b></div>
+              <div class="item-detail"><b>branch:Computer</b></div>
+            </li>
+            <li class="tl-item" ng-repeat="item in retailer_history">
+              <div class="timestamp">
+                 <b>2019</b>
+              </div>
+              <div class="item-title"><b>College Name:Government Polytechnic Mumbai<br>Degree:Diploma</b></div>
+              <div class="item-detail"><b>Branch:Computer<br>Percentage:87%</b></div>
+            </li>
+            <li class="tl-item" ng-repeat="item in retailer_history">
+              <div class="timestamp">
+                <b>2016</b>
+              </div>
+              <div class="item-title"><b>School Name:St. Joesph's Girls High School<br>Degree:SSC</b></div>
+              <div class="item-detail"><b>Percentage:81%</b></div>
+            </li>
+        
+          </ul>
+        
+        </div>
+          
+    </section>
+
+    <section id="projects">
+      <div class="plogo">
+        <img src="img/project.png" height="120">
+        <h1>Projects</h1>
+    </div>
+     
+    <div class="wrapper">
+
+      
+      <div class="div1">
+        <p><b><br>Online Horse Race <br>Bidding Management System Website</b></h1><br><br><hr><br>
+          Online bidding System – bidding over the
+          internet.Bidding is an offer to set a price by an individual...<br>
+          </p>
+      </div>
+      <div class="div2">
+        <p><b><br>Doctors matrimonial website</b></h1><br><br><hr><br>
+          A vision to provide a platform to Doctor boys and <br>
+          girls from good families who are searching for doctor match.</p> 
+      </div>
+    </div>
+    <div class="wrapper2">
+      <div class="div3">
+        <p><b><br>Mini project: <br>Library Management <br>system website</b></h1><br><br><hr><br>
+         Libraries rely on library management systems to manage <br>
+          collections as well as relationships with their members.</p>
+      </div>
+      <div class="div4">
+        <p><b><br>Mini project:<br> Pharmacy Management system website</b></h1><br><br><hr><br>
+          pharmacy information system stores data and <br>
+          enables functionality that organizes and maintains the medication use <br>
+          process within pharmacies.</p>
+
+      </div>
+    </div>
+    </section>
+    <div class="blank"></div>
+    <section id="contact">
+      <div class="container">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13249.247068040606!2d151.20960562674117!3d-33.8816236491114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1468899355787" width="100%" height="650px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="contact-form">
+          <h1 class="title">Contact Us</h1>
+          
+          <form action="">
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="email" name="e-mail" placeholder="Your E-mail Adress" />
+            <input type="text" name="subject" placeholder="Subject"/>
+            <textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
+            <button class="btn-send">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
